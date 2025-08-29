@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+  #emma-controls { flex-direction: column; gap: 4px; }
+  #chat, #memory, #cloud-status { max-width: 98vw; padding: 8px; font-size: 16px; }
+  #login-container { padding: 24px 8px; }
+  #emma-avatar { margin-left: 4px; }
+}

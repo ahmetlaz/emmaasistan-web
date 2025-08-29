@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6f6f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+body.dark {
+  background: #23232e;
+  color: #f3f3f9;
+}
+#emma-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px;
+  align-items: center;
+}
+#emma-controls input, #emma-controls select, #emma-controls button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  font-size: 16px;
+}
+body.dark #emma-controls input, body.dark #emma-controls select, body.dark #emma-controls button {
+  background: #2c2c3a;
+  color: #f3f3f9;
+  border: 1px solid #444;
+}
+#chat {
+  min-height: 320px;
+  max-width: 700px;
+  margin: 24px auto 0 auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px #a6a6c780;
+  font-size: 18px;
+  line-height: 1.5;
+}
+body.dark #chat {
+  background: #353545;
+  box-shadow: 0 2px 20px #23232e80;
+}
+#memory, #cloud-status {
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 12px;
+  background: #e9efff;
+  border-radius: 8px;
+  font-size: 16px;
+}
+body.dark #memory, body.dark #cloud-status {
+  background: #282838;
+}
+#login-container {
+  max-width: 350px;
+  margin: 60px auto;
+  background: #fff;
+  box-shadow: 0 2px 16px #bbb;
+  border-radius: 10px;
+  padding: 36px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+body.dark #login-container {
+  background: #282838;
+  color: #eee;
+  box-shadow: 0 2px 16px #222;
+}
+#login-status {
+  color: #d00;
+  font-size: 15px;
+}
+#emma-avatar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
